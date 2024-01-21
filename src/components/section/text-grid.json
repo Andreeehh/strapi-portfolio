@@ -13,6 +13,13 @@
     "description": {
       "type": "richtext",
       "required": true
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

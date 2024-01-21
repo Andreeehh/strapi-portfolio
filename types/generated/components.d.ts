@@ -126,6 +126,7 @@ export interface SectionTextGrid extends Schema.Component {
   attributes: {
     title: Attribute.String & Attribute.Required;
     description: Attribute.RichText & Attribute.Required;
+    cover: Attribute.Media;
   };
 }
 
